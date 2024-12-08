@@ -1,0 +1,1 @@
+- [] scrub examples if pushing repo, don't include any copied text
