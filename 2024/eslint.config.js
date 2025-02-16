@@ -10,6 +10,14 @@ export default tseslint.config(
   tseslint.configs.strictTypeChecked,
   tseslint.configs.stylisticTypeChecked,
   {
+    rules: {
+      "@typescript-eslint/restrict-template-expressions": [
+        "error",
+        { allowNumber: true } // needed in day 6
+      ]
+    }
+  },
+  {
     languageOptions: {
       parserOptions: {
         projectService: true,
